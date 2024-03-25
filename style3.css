@@ -2,9 +2,17 @@ video {
     width: 100%;
 }
 
+.container-video {
+    margin-top: 25px;
+}
+
 footer {
     height: 220px;
     background-color: #444;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+
 }
 
 .ac-navbar {
@@ -44,6 +52,12 @@ footer h1 {
     #mobil-navbar {
         /* border: 2px solid red; */
         display: none;
+    }
+
+    footer {
+        height: 220px;
+        background-color: #444;
+        position: relative;
     }
 
     .container-video {
