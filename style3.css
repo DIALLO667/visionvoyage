@@ -1,0 +1,78 @@
+video {
+    width: 100%;
+}
+
+footer {
+    height: 220px;
+    background-color: #444;
+}
+
+.ac-navbar {
+    display: none;
+}
+
+footer h1 {
+    color: #fff;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.copyright {
+    text-align: center;
+    font-weight: bold;
+    padding-top: 30px;
+    color: #777;
+}
+
+.diallo {
+    /* color: red; */
+}
+
+.button-3 {
+    color: #fff;
+    font: size 20px;
+    font-weight: bold;
+    padding: 11px;
+    background-color: #02b8dd;
+    border-style: none;
+    cursor: pointer;
+    width: 70px;
+    margin: 10px auto;
+}
+
+@media screen and (min-width: 600px) {
+    #mobil-navbar {
+        border: 2px solid red;
+        display: none;
+    }
+
+    .container-video {
+        width: 100%;
+        background-color: #721f1f;
+        display: flex;
+    }
+
+    video {
+        width: 75%;
+        margin: 15px auto;
+        border: solid 3px rgb(0, 110, 255);
+    }
+
+    .ac-navbar {
+        display: block;
+        /* height: 500px; */
+        /* position: sticky;
+        top: 0; */
+
+    }
+
+    .parent-navbar {
+        position: sticky;
+        top: 0;
+    }
+
+
+
+
+
+}
