@@ -42,20 +42,20 @@ footer h1 {
 
 @media screen and (min-width: 600px) {
     #mobil-navbar {
-        border: 2px solid red;
+        /* border: 2px solid red; */
         display: none;
     }
 
     .container-video {
         width: 100%;
-        background-color: #721f1f;
+        /* background-color: #721f1f; */
         display: flex;
     }
 
     video {
         width: 75%;
         margin: 15px auto;
-        border: solid 3px rgb(0, 110, 255);
+        /* border: solid 3px rgb(0, 110, 255); */
     }
 
     .ac-navbar {
@@ -70,6 +70,7 @@ footer h1 {
         position: sticky;
         top: 0;
     }
+
 
 
 
